@@ -781,6 +781,13 @@ button {
 }
 
 .footer-column-three {
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-column-three {
+    margin: unset;
+  }
 }
 
 .footer-logo {
@@ -805,8 +812,13 @@ button {
 .footer-subsection {
   color: var(--light-white);
   max-width: 264px;
+  margin: 0 auto;
+}
 
-  /* outline: 2px solid red; */
+@media only screen and (min-width: 768px) {
+  .footer-subsection {
+    margin: unset;
+  }
 }
 
 .footer-caption {
