@@ -745,6 +745,7 @@ button {
   .footer-container {
     padding-left: unset;
     flex-wrap: nowrap;
+    width: unset;
   }
 }
 
